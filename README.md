@@ -54,7 +54,7 @@ These patterns address the challenges of managing data across multiple, independ
 * Event Sourcing: Stores changes to an application's state as a sequence of events, providing an audit trail and enabling the reconstruction of past states. 
 # Cross-Cutting Concern Patterns: 
 These patterns deal with concerns that affect multiple services, such as security, monitoring, and service discovery. 
-Service Discovery: Enables services to register themselves and discover other services dynamically, facilitating communication and load balancing. This is essential in dynamic environments where service instances are frequently added or removed.
+* Service Discovery: Enables services to register themselves and discover other services dynamically, facilitating communication and load balancing. This is essential in dynamic environments where service instances are frequently added or removed.
 * Circuit Breaker: Prevents cascading failures by detecting when a service is unresponsive and preventing further calls to it, allowing the system to degrade gracefully.
 * Bulkhead Pattern: Isolates components or services to prevent a failure in one part of the system from affecting others. It's like compartmentalizing parts of a ship to contain water if there's a breach.
 * Blue-Green Deployment: Reduces downtime during deployments by running two identical production environments (blue and green) and switching traffic to the new version (green) after testing.
